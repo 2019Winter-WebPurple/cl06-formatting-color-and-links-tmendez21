@@ -1,0 +1,55 @@
+/* 
+* Tatiana Mendez
+* April 30, 2019
+* Dobermann Pinschers are the best breed
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body properties here */
+
+body {
+    background-color: lightyellow; /*background color*/
+    font-family: "Arial Black", sans-serif; /*font selector*/
+    width: 85%;
+    margin: auto;
+}
+
+header { background-color: lightcoral; } /*background color for the header*/
+
+main { background-color: lightpink; } /*background color for the main*/
+
+nav { background-color: lightsalmon; } /*background color for the nav*/
+
+footer { background-color: #ffd68c; } /*background color for the footer*/
+
+#Apollo { width:150px; height:250px;} /* height and width of the image*/
+
+h1 { font-size: 250%; text-decoration: underline overline; text-align: center; } /* text formats for h1 */
+
+h2 { text-align: center; } /* text formats for h2 */
+
+figure { float: left; } /* floating tag for the image */
+
+a:link { /*link tag that changes the color and text decoration before a link is visited*/
+    color: #cc4578;
+    text-decoration: none;  
+}
+
+a:visited { /*link tag that changes the color and text decoration after a link is visited*/
+    color: #2e3056;
+    text-decoration: none;
+}
+
+a:hover, a:focus { /*link tag that changes the font size and color when it is hovered or "tabbed" over*/
+    font-size: 200%;
+    color: #ffffff;   
+}
+
+a:active { /*link tag that changes the color of a link when the button is pressed down*/
+    color: #6150c4;
+}
